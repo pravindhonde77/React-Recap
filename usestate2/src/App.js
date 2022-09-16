@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import StopWatch from './Components/StopWatch';
+
+// import SelectPagination from './Components/SelectPagination';
+// import NextPrev from "./Components/NextPrev";
+
+
+//state to store this pageNumber
+// api for every pageNumber change
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <StopWatch />
+
     </div>
   );
 }
