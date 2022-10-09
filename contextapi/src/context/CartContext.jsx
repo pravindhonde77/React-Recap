@@ -16,7 +16,7 @@ export const CartProvider = ({ children }) => {
         }else{
             console.log("cannot buy without login in")
         }
-        //check if ud=ser is logged in
+        //check if user is logged in
         //if user is logged in then allow him to pay buy
     }
     return (
